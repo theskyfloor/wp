@@ -1,0 +1,356 @@
+@font-face {
+	font-family: "nicons";
+	src: url('../fonts/nicons.eot');
+	src: url('../fonts/nicons.eot?#iefix') format('eot'),
+		url('../fonts/nicons.woff2') format('woff2'),
+		url('../fonts/nicons.woff') format('woff'),
+		url('../fonts/nicons.ttf') format('truetype'),
+		url('../fonts/nicons.svg#nicons') format('svg');
+}
+
+.nicon:before {
+	font-family: nicons;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: inline-block;
+	font-size: inherit;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.nicon-age-gate:before {
+	content: "\E001";
+}
+
+.nicon-audio:before {
+	content: "\E002";
+}
+
+.nicon-block:before {
+	content: "\E003";
+}
+
+.nicon-breadcrumbs:before {
+	content: "\E004";
+}
+
+.nicon-button-group:before {
+	content: "\E005";
+}
+
+.nicon-circle-progress:before {
+	content: "\E006";
+}
+
+.nicon-desktop:before {
+	content: "\E007";
+}
+
+.nicon-divider-text:before {
+	content: "\E008";
+}
+
+.nicon-expand:before {
+	content: "\E009";
+}
+
+.nicon-extras:before {
+	content: "\E00A";
+}
+
+.nicon-gear:before {
+	content: "\E00B";
+}
+
+.nicon-heading-extended:before {
+	content: "\E00C";
+}
+
+.nicon-hotspots:before {
+	content: "\E00D";
+}
+
+.nicon-image-comparison:before {
+	content: "\E00E";
+}
+
+.nicon-image-gallery:before {
+	content: "\E00F";
+}
+
+.nicon-inline:before {
+	content: "\E010";
+}
+
+.nicon-laptop:before {
+	content: "\E011";
+}
+
+.nicon-loader-bars-equal:before {
+	content: "\E012";
+}
+
+.nicon-loader-bars-flex:before {
+	content: "\E013";
+}
+
+.nicon-loader-circle:before {
+	content: "\E014";
+}
+
+.nicon-loader-track:before {
+	content: "\E015";
+}
+
+.nicon-map:before {
+	content: "\E016";
+}
+
+.nicon-masonry-columns:before {
+	content: "\E017";
+}
+
+.nicon-masonry-mixed:before {
+	content: "\E018";
+}
+
+.nicon-mobile-landscape:before {
+	content: "\E019";
+}
+
+.nicon-mobile-portrait:before {
+	content: "\E01A";
+}
+
+.nicon-mobile-screen-bottom:before {
+	content: "\E01B";
+}
+
+.nicon-mobile-screen-center:before {
+	content: "\E01C";
+}
+
+.nicon-mobile-screen-custom:before {
+	content: "\E01D";
+}
+
+.nicon-mobile-screen-top:before {
+	content: "\E01E";
+}
+
+.nicon-mobile:before {
+	content: "\E01F";
+}
+
+.nicon-offcanvas-bottom:before {
+	content: "\E020";
+}
+
+.nicon-offcanvas-left:before {
+	content: "\E021";
+}
+
+.nicon-offcanvas-overlay:before {
+	content: "\E022";
+}
+
+.nicon-offcanvas-push:before {
+	content: "\E023";
+}
+
+.nicon-offcanvas-reveal:before {
+	content: "\E024";
+}
+
+.nicon-offcanvas-right:before {
+	content: "\E025";
+}
+
+.nicon-offcanvas-shift:before {
+	content: "\E026";
+}
+
+.nicon-offcanvas-top:before {
+	content: "\E027";
+}
+
+.nicon-offcanvas:before {
+	content: "\E028";
+}
+
+.nicon-parallax-background:before {
+	content: "\E029";
+}
+
+.nicon-parallax-elements:before {
+	content: "\E02A";
+}
+
+.nicon-parallax-gallery:before {
+	content: "\E02B";
+}
+
+.nicon-pause:before {
+	content: "\E02C";
+}
+
+.nicon-phone:before {
+	content: "\E02D";
+}
+
+.nicon-play-next:before {
+	content: "\E02E";
+}
+
+.nicon-play-previous:before {
+	content: "\E02F";
+}
+
+.nicon-play:before {
+	content: "\E030";
+}
+
+.nicon-popup:before {
+	content: "\E031";
+}
+
+.nicon-position-body:before {
+	content: "\E032";
+}
+
+.nicon-position-footer:before {
+	content: "\E033";
+}
+
+.nicon-position-header:before {
+	content: "\E034";
+}
+
+.nicon-position-media:before {
+	content: "\E035";
+}
+
+.nicon-post-calendar:before {
+	content: "\E036";
+}
+
+.nicon-posts:before {
+	content: "\E037";
+}
+
+.nicon-random:before {
+	content: "\E038";
+}
+
+.nicon-resize-horizontal-filled:before {
+	content: "\E039";
+}
+
+.nicon-resize-horizontal:before {
+	content: "\E03A";
+}
+
+.nicon-rewind:before {
+	content: "\E03B";
+}
+
+.nicon-shape-round:before {
+	content: "\E03C";
+}
+
+.nicon-shape-skewed:before {
+	content: "\E03D";
+}
+
+.nicon-shape-square:before {
+	content: "\E03E";
+}
+
+.nicon-slide-menu:before {
+	content: "\E03F";
+}
+
+.nicon-slider-gallery:before {
+	content: "\E040";
+}
+
+.nicon-sort-down:before {
+	content: "\E041";
+}
+
+.nicon-sort-up-down:before {
+	content: "\E042";
+}
+
+.nicon-sort-up:before {
+	content: "\E043";
+}
+
+.nicon-sticky-elements:before {
+	content: "\E044";
+}
+
+.nicon-svg:before {
+	content: "\E045";
+}
+
+.nicon-switcher:before {
+	content: "\E046";
+}
+
+.nicon-table:before {
+	content: "\E047";
+}
+
+.nicon-tablet:before {
+	content: "\E048";
+}
+
+.nicon-timeline:before {
+	content: "\E049";
+}
+
+.nicon-toggle:before {
+	content: "\E04A";
+}
+
+.nicon-tooltip:before {
+	content: "\E04B";
+}
+
+.nicon-unfold:before {
+	content: "\E04C";
+}
+
+.nicon-v-align-baseline:before {
+	content: "\E04D";
+}
+
+.nicon-video:before {
+	content: "\E04E";
+}
+
+.nicon-visibility:before {
+	content: "\E04F";
+}
+
+.nicon-volume-off:before {
+	content: "\E050";
+}
+
+.nicon-volume:before {
+	content: "\E051";
+}
+
+.nicon-window:before {
+	content: "\E052";
+}
